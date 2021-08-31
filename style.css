@@ -18,42 +18,17 @@ body{
   text-align: center;
 }
 
-.hex-colors h1{
-  text-transform: uppercase;
-  font-size: 2rem;
-  animation: colorchange 5s infinite alternate; 
-}
 
 .hex-colors h2{
-  margin-top: 15%;
   font-size: 2rem;
 }
 
-@keyframes colorchange {
-      0% {
-        color: indigo;
-      }
-      
-      20% {
-        color: blue;
-      }
-      
-      40% {
-        color: green;
-      }
-      
-      60% {
-        color: yellow;
-      }
-      
-      80% {
-        color: orange;
-      }
-      
-      100% {
-        color: red;
-      }
-      
+.hex-colors button,
+.hex-colors button:focus{
+  border: 1px solid white;
+  outline-width: 0px;
+  outline-color: unset;
+  box-shadow: unset;
 }
 
 @media(max-width:480px){

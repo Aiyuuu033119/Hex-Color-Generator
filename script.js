@@ -12,4 +12,8 @@ function changeColor()
 
   document.getElementById("hex-code").innerHTML = hexcode;
   document.body.style.backgroundColor = '#' + hexcode;
+  button.style.backgroundColor='#' + hexcode;
+
+
+
 }
