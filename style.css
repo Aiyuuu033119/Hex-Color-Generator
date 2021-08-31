@@ -25,6 +25,17 @@ body{
 
 .hex-colors button,
 .hex-colors button:focus{
+  background-color: #171717;
+  border: 1px solid white;
+  outline-width: 0px;
+  outline-color: unset;
+  box-shadow: unset;
+  transition: all 300ms ease-in;
+}
+
+.hex-colors button:hover{
+  transform: scale(1.2);
+  background-color: #171717;
   border: 1px solid white;
   outline-width: 0px;
   outline-color: unset;
